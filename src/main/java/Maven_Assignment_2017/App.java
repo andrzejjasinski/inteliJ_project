@@ -16,11 +16,11 @@ public class App
         Scanner input = new Scanner(System.in);
         System.out.println("Enter yours Name: ");
         String name = input.nextLine();
-
+        //commentary
         PrintWriter save = new PrintWriter("name.txt");
         save.print(name);
         save.close();
-
+        //another commentary
         Scanner read = new Scanner(new File("name.txt"));
         System.out.println(read.nextLine());
     }
