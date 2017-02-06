@@ -21,6 +21,7 @@ public class App
         save.print(name);
         save.close();
         //another commentary
+        error
         Scanner read = new Scanner(new File("name.txt"));
         System.out.println(read.nextLine());
     }
