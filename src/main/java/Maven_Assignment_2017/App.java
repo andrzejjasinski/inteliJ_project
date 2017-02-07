@@ -9,7 +9,9 @@ import java.util.Scanner;
  * save and read from .txt file
  *
  */
-public class App 
+public class App
+
+    error syntax
 
 {
     public static void main(String[] args) throws FileNotFoundException{
